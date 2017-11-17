@@ -42,10 +42,9 @@
             ],
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://github.com/gkarsay/parlatype.git",
-                    "branch": "v1.5.2",
-                    "commit": "82fe0c0f401378af68518ec2530dd9cc22663058"
+                    "type": "archive",
+                    "url": "https://github.com/gkarsay/parlatype/releases/download/v1.5.3/parlatype-1.5.3.tar.gz",
+                    "sha256": "584a739770e85dd91249fbb716aafdf490b325e2eea393857af80a16f7080fd4"
                 }
             ]
         }
