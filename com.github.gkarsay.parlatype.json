@@ -21,7 +21,7 @@
         "--talk-name=ca.desrt.dconf",
         "--talk-name=org.freedesktop.secrets",
 
-        "--talk-name=org.gnome.SettingsDaemon"
+        "--talk-name=org.gnome.SettingsDaemon.MediaKeys"
     ],
     "build-options": {
         "cflags": "-O2 -g"
