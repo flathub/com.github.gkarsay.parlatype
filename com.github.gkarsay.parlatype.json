@@ -43,8 +43,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/gkarsay/parlatype/releases/download/v1.5.4/parlatype-1.5.4.tar.gz",
-                    "sha256": "6f663317546215dace0cf80acaee334fd6448abbbf972dc3976e5da02515b6b9"
+                    "url": "https://github.com/gkarsay/parlatype/releases/download/v1.5.5/parlatype-1.5.5.tar.gz",
+                    "sha256": "8416302349f3c97378a5a9755be08d09c23d23a4a917e8aa5d8f4aa3adf18997"
                 }
             ]
         }
