@@ -31,7 +31,9 @@
         "*.a",
         "/include",
         "/lib/pkgconfig",
-        "/share/man"
+        "/share/man",
+        "/share/pocketsphinx",
+        "/share/sphinxbase"
     ],
     "modules": [
         {
