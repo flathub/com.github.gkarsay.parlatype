@@ -36,15 +36,16 @@
     "modules": [
         {
             "name": "parlatype",
+            "buildsystem": "meson",
+            "builddir": true,
             "config-opts": [
-                "--disable-introspection",
-                "--without-libreoffice"
+                "-Dlibreoffice=false"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/gkarsay/parlatype/releases/download/v1.5.6/parlatype-1.5.6.tar.gz",
-                    "sha256": "ae72ac7c80e1adfec8b0f04bec066e2c45adf0da90736707a5f962cfdd722f3f"
+                    "url": "https://github.com/gkarsay/parlatype/releases/download/v1.6/parlatype-1.6.tar.gz",
+                    "sha256": "8150aab04988b6966863f8c42fbab7a8d096b52c859929a819b19ef307f878b9"
                 }
             ]
         }
