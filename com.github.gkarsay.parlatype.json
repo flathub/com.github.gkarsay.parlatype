@@ -72,8 +72,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/gkarsay/parlatype/releases/download/v1.6.1/parlatype-1.6.1.tar.gz",
-                    "sha256": "46cf276cdf4f3b210f4980c3c02bfa3d64eae77631f62b347acbc502b3c12b48"
+                    "url": "https://github.com/gkarsay/parlatype/releases/download/v1.6.2/parlatype-1.6.2.tar.gz",
+                    "sha256": "3362faffcee2bcec71ef2eb20362ade475983d3e89c20e7076ad10ddf7dace73"
                 }
             ]
         }
