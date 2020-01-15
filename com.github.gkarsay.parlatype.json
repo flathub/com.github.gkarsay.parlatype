@@ -2,30 +2,23 @@
     "app-id": "com.github.gkarsay.parlatype",
 
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.32",
+    "runtime-version": "3.34",
     "sdk": "org.gnome.Sdk",
 
     "command": "parlatype",
 
     "finish-args": [
         "--share=ipc",
-        "--socket=x11",
+        "--socket=fallback-x11",
         "--socket=wayland",
         "--socket=pulseaudio",
 
-	"--filesystem=home:ro",
+    	"--filesystem=home:ro",
 
-        "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
-        "--filesystem=xdg-run/dconf",
-        "--filesystem=~/.config/dconf:ro",
-        "--talk-name=ca.desrt.dconf",
         "--talk-name=org.freedesktop.secrets",
 
         "--talk-name=org.gnome.SettingsDaemon.MediaKeys"
     ],
-    "build-options": {
-        "cflags": "-O2 -g"
-    },
     "cleanup": [
         "*.la",
         "*.a",
@@ -65,7 +58,6 @@
         {
             "name": "parlatype",
             "buildsystem": "meson",
-            "builddir": true,
             "config-opts": [
                 "-Dlibreoffice=false"
             ],
