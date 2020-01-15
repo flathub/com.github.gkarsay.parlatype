@@ -17,7 +17,8 @@
 
         "--talk-name=org.freedesktop.secrets",
 
-        "--talk-name=org.gnome.SettingsDaemon.MediaKeys"
+        "--talk-name=org.gnome.SettingsDaemon.MediaKeys",
+        "--metadata=X-DConf=migrate-path=/com/github/gkarsay/parlatype/"
     ],
     "cleanup": [
         "*.la",
